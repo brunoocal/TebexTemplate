@@ -1,8 +1,9 @@
 :root {
   /* COLORS */
 
-  --primary: #7496aa;
+  --primary: #325dc2;
   --secondary: #fff;
+  --light-blue: #4096c0
 
   /* font family */
   --fontFamily: "Montserrat", sans-serif;
@@ -39,7 +40,7 @@ body {
       hsla(160, 51%, 49%, 0.1),
       hsla(160, 51%, 49%, 0.1)
     ),
-    url("https://i.imgur.com/annXADs.png");
+    url("https://i.imgur.com/dzmTdXS.png");
 
   margin-bottom: 48px;
   background-size: cover;
@@ -66,6 +67,7 @@ body {
   border-color: unset !important;
   background: transparent;
   font-size: var(--fontSizeLarger);
+  border: 0 !important;
 }
 
 .mobile-container {
@@ -84,7 +86,7 @@ body {
 }
 
 .item.highlight {
-  background-color: #6fbdeb;
+  background-color: var(--light-blue);
   border-top-left-radius: 42px 100%;
   border-top-right-radius: 42px 100%;
   border-bottom-left-radius: 42px 100%;
