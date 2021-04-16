@@ -165,7 +165,7 @@
   width: 100%;
 }
 
-.header__discord > .header__discord-icon i {
+.header__discord .header__discord-icon i {
   font-size: 40px;
   color: var(--secondary);
 }
