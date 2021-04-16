@@ -103,7 +103,9 @@
   width: 100%;
 }
 
-.header__play > .header__play-icon {
+.header__play > .header__play-icon i {
+  font-size: 40px;
+  color: var(--secondary);
 }
 
 .header__logo {
@@ -140,25 +142,45 @@
   align-items: center;
 }
 
-.header__discord-text{
-    text-align: left;
-    margin-left: 10px;
+.header__discord-text {
+  text-align: left;
+  margin-left: 10px;
 }
 
 .header__discord-text > span#discord {
-    text-transform: uppercase;
-    font-weight: var(--fontWeightHeavy);
-    color: var(--secondary);
-    font-size: var(--fontSizeNormal);
-    letter-spacing: 0.04em;
-    display: block;
-    width: 100%;
-  }
-  
+  text-transform: uppercase;
+  font-weight: var(--fontWeightHeavy);
+  color: var(--secondary);
+  font-size: var(--fontSizeNormal);
+  letter-spacing: 0.04em;
+  display: block;
+  width: 100%;
+}
+
 .header__discord-text > span#discord-players {
-    color: var(--secondary);
-    font-size: var(--fontSizeSmall);
-    opacity: 0.7;
-    display: block;
-    width: 100%;
-  }
+  color: var(--secondary);
+  font-size: var(--fontSizeSmall);
+  opacity: 0.7;
+  display: block;
+  width: 100%;
+}
+
+.header__discord > .header__discord-icon i {
+  font-size: 40px;
+  color: var(--secondary);
+}
+
+.header__curve {
+  position: relative;
+  overflow: hidden;
+}
+
+.header__curve > .curve {
+  width: 100%;
+  transform: scale(1.5);
+  transform-origin: top;
+}
+
+.header__curve > .curve path {
+  fill: var(--secondary);
+}
