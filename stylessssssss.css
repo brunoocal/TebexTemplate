@@ -56,8 +56,16 @@ body {
 #header nav {
   display: flex;
   align-items: center;
-  padding: 29px;
+  padding-top: 29px;
   height: 60px;
+}
+
+.btn-default {
+  color: #fff !important;
+  background-color: unset !important;
+  border-color: unset !important;
+  background: transparent;
+  font-size: var(--fontSizeLarger);
 }
 
 .mobile-container {
