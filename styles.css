@@ -1,4 +1,164 @@
-#header {
-  background-color: black;
-  height: 500px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
 }
+
+:root {
+  /* COLORS */
+
+  --primary: #7496aa;
+  --secondary: #fff;
+
+  /* font family */
+  --fontFamily: "Montserrat", sans-serif;
+
+  /* font weights */
+  --fontWeightLight: 300;
+  --fontWeightNormal: 400;
+  --fontWeightHeavy: 800;
+
+  /* font sizes */
+  --fontSizeSmaller: 12px;
+  --fontSizeSmall: 14px;
+  --fontSizeNormal: 16px;
+  --fontSizeLarge: 18px;
+  --fontSizeLarger: 20px;
+  --fontSizeLargest: 24px;
+}
+
+#header {
+  background: linear-gradient(
+      0deg,
+      hsla(160, 51%, 49%, 0.1),
+      hsla(160, 51%, 49%, 0.1)
+    ),
+    url("https://i.imgur.com/annXADs.png");
+
+  margin-bottom: 48px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__content {
+  max-width: 1147px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+#header nav {
+  display: flex;
+  align-items: center;
+  padding: 29px;
+  height: 60px;
+}
+
+.header__logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 64px;
+  padding-bottom: 24px;
+}
+
+.header__logo-content {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__play {
+  justify-content: flex-end;
+  right: 64px;
+  display: flex;
+  position: relative;
+  flex: 1;
+}
+
+.header__play > .header__play-text {
+  text-align: right;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__play > .header__play-text > span#server-ip {
+  text-transform: uppercase;
+  font-weight: var(--fontWeightHeavy);
+  color: var(--secondary);
+  font-size: var(--fontSizeNormal);
+  letter-spacing: 0.04em;
+  display: block;
+  width: 100%;
+}
+
+.header__play > .header__play-text > span#server-players {
+  color: var(--secondary);
+  font-size: var(--fontSizeSmall);
+  opacity: 0.7;
+  display: block;
+  width: 100%;
+}
+
+.header__play > .header__play-icon {
+}
+
+.header__logo {
+  flex: 1;
+  margin-bottom: -12%;
+}
+
+.header__logo > a {
+  cursor: pointer;
+}
+
+.header__logo img {
+  width: 460px;
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+  height: auto;
+  vertical-align: unset;
+  border: 0;
+}
+
+.header__discord {
+  justify-content: flex-end;
+  left: 64px;
+  display: flex;
+  position: relative;
+  flex: 1;
+}
+
+.header__discord > a {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__discord-text{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.header__discord-text > span#discord {
+    text-transform: uppercase;
+    font-weight: var(--fontWeightHeavy);
+    color: var(--secondary);
+    font-size: var(--fontSizeNormal);
+    letter-spacing: 0.04em;
+    display: block;
+    width: 100%;
+  }
+  
+.header__discord-text > span#discord-players {
+    color: var(--secondary);
+    font-size: var(--fontSizeSmall);
+    opacity: 0.7;
+    display: block;
+    width: 100%;
+  }
