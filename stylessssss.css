@@ -29,6 +29,10 @@
   font-family: var(--fontFamily);
 }
 
+body {
+  padding: 0 !important;
+}
+
 #header {
   background: linear-gradient(
       0deg,
@@ -72,8 +76,11 @@
 }
 
 .item.highlight {
-  background-color: var(--primary);
-  border-radius: 42px 100%;
+  background-color: var(--secondary);
+  border-top-left-radius: 42px 100%;
+  border-top-right-radius: 42px 100%;
+  border-bottom-left-radius: 42px 100%;
+  border-bottom-right-radius: 42px 100%;
   padding: 6px 32px;
   margin-top: -6px;
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
