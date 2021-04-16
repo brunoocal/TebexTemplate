@@ -30,7 +30,7 @@
 }
 
 body {
-  padding: 0 !important;
+  margin: 0 !important;
 }
 
 #header {
@@ -76,7 +76,7 @@ body {
 }
 
 .item.highlight {
-  background-color: var(--secondary);
+  background-color: #6fbdeb;
   border-top-left-radius: 42px 100%;
   border-top-right-radius: 42px 100%;
   border-bottom-left-radius: 42px 100%;
