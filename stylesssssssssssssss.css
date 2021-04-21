@@ -345,3 +345,8 @@ nav.navbar .navbar-nav > li > a {
   color: #829ab1;
   padding: 3px 12px;
 }
+.containerr {
+  max-width: 1147px;
+  padding: 24px 10px;
+  margin: 0 auto;
+}
