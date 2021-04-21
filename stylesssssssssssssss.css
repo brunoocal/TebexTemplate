@@ -350,3 +350,30 @@ nav.navbar .navbar-nav > li > a {
   padding: 24px 10px;
   margin: 0 auto;
 }
+
+.body > div:first-child .panel-heading:first-of-type {
+  background-color: var(--primary);
+}
+
+.body > div:first-child .panel-heading:first-of-type {
+  font-size: 24px;
+}
+
+.panel-default > .panel-heading {
+  color: #829ab1;
+}
+
+.panel .panel-heading {
+  font-weight: var(--fontWeightHeavy);
+}
+.panel-heading {
+  padding: 16px 24px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border: none;
+  font-size: var(--fontSizeLarge);
+}
+
+.body > div:first-child .panel-heading:first-of-type + .panel-body {
+  padding-top: 24px;
+}
