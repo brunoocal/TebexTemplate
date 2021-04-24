@@ -489,6 +489,10 @@ button,
   color: rgba(255, 255, 255, 0.69);
 }
 
+.category .packages-image .main-info .price * {
+  background-color: unset !important;
+}
+
 .category .packages-image .main-info {
   background-color: unset !important;
 }
