@@ -542,7 +542,7 @@ button,
 .upper-container .upper .info p.main,
 .footer .upper-container .upper .info a {
   display: inline-block;
-  color: #4096c0;
+  color: #fff;
 }
 
 .btn {
@@ -566,4 +566,16 @@ button,
   padding-top: 4px;
   padding-bottom: 4px;
   vertical-align: baseline;
+}
+
+.upper-container .upper .info p {
+  color: rgba(255, 255, 255, 0.69);
+}
+
+.copyright p {
+  color: #fff;
+}
+
+.branding a {
+  color: #fff !important;
 }
