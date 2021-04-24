@@ -352,7 +352,7 @@ nav.navbar .navbar-nav > li > a {
 }
 
 .body > div:first-child .panel-heading:first-of-type {
-  background-color: var(--primary);
+  background-color: var(--primary) !important;
 }
 
 .body > div:first-child .panel-heading:first-of-type {
@@ -393,4 +393,86 @@ nav.navbar .navbar-nav > li > a {
 body,
 html {
   background-color: #121212 !important;
+}
+
+.category .packages-image .package .info .text {
+  width: 60%;
+  height: 40px;
+  float: left;
+  padding-right: 4px;
+  font-size: 12px;
+}
+
+.category .packages-image .package .info .text {
+  width: 100%;
+  height: auto;
+  padding: 18px;
+  padding-top: 83px;
+  background: linear-gradient(var(--primary), #fff);
+}
+
+.category .packages-image .package .info .text,
+.modal__container,
+.cartModal-item {
+  border-radius: 6px;
+}
+
+.category .packages-image .package .info .text .name {
+  word-break: break-all;
+  margin-bottom: 5px;
+}
+
+.category .packages-image .main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category .packages-image .main-info .price {
+  font-size: var(--fontSizeSmall);
+  color: #121212;
+}
+
+.category .packages-image .package .info .text .price .discount,
+.category .packages-row table .price .discount,
+.module .featured-package .info .text .price .discount {
+  color: #780a0a;
+}
+
+.category .packages-image .package .info .text .price .discount {
+  text-decoration: line-through;
+}
+
+.category .packages-image .package .info .text .name {
+  font-size: var(--fontSizeNormal);
+}
+
+.category .packages-image .package .info {
+  max-width: unset;
+  margin: -65px 5px 0 5px;
+}
+
+.category .packages-image .package .info .main-info .button {
+  float: none;
+  width: auto;
+}
+
+button,
+.btn {
+  transition: 0.25s ease;
+}
+
+.btn-primary,
+.btn-success,
+.btn-info {
+  color: #fff;
+  background: #325dc2;
+}
+
+.btn:not(.btn-lg) {
+  padding: 6px 18px;
+}
+
+.btn:not(.btn-danger) {
+  box-shadow: 0 -3px 0 rgb(0 0 0 / 10%) inset;
 }
