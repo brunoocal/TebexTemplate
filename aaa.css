@@ -476,3 +476,19 @@ button,
 .btn:not(.btn-danger) {
   box-shadow: 0 -3px 0 rgb(0 0 0 / 10%) inset;
 }
+
+.category .packages-image .package .info .text .name {
+  background-color: unset !important;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.category .packages-image .package .info .main-info .button {
+  background-color: unset !important;
+}
+.category .packages-image .main-info .price {
+  color: rgba(255, 255, 255, 0.69);
+}
+
+.category .packages-image .main-info {
+  background-color: unset !important;
+}
