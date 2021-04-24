@@ -408,7 +408,7 @@ html {
   height: auto;
   padding: 18px;
   padding-top: 83px;
-  background: linear-gradient(var(--primary), #fff);
+  background: linear-gradient(var(--primary), #121212);
 }
 
 .category .packages-image .package .info .text,
