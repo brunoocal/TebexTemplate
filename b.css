@@ -504,6 +504,8 @@ button,
   flex-direction: row;
   width: 100vw !important;
   background: #325dc2 !important;
+  padding: 20px;
+  margin: 0;
 }
 
 .footer .language {
@@ -511,8 +513,8 @@ button,
 }
 
 .upper-container {
-  width: 100% !important;
   background: #4096c0 !important;
+  width: 100vw !important;
 }
 
 .upper {
@@ -522,7 +524,7 @@ button,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100vw !important;
+  max-width: 1135px;
   margin: 0 auto;
 }
 
@@ -531,4 +533,37 @@ button,
 }
 .upper-container .upper img {
   height: 110px;
+}
+
+.upper-container .upper .info p.main {
+  margin-bottom: 10px;
+}
+
+.upper-container .upper .info p.main,
+.footer .upper-container .upper .info a {
+  display: inline-block;
+  color: #4096c0;
+}
+
+.btn {
+  border: none;
+  border-radius: 32px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.btn:not(.btn-lg) {
+  box-shadow: 0 -3px 0 rgb(0 0 0 / 10%) inset;
+}
+.btn:not(.btn-danger) {
+  box-shadow: 0 -3px 0 rgb(0 0 0 / 10%) inset;
+}
+
+.upper-container .upper .info a {
+  margin-left: 10px;
+  background: var(--secondary);
+  color: var(--primary);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  vertical-align: baseline;
 }
