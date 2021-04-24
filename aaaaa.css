@@ -496,3 +496,39 @@ button,
 .category .packages-image .main-info {
   background-color: unset !important;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  background: #325dc2;
+}
+
+.footer .language {
+  margin-right: 2%;
+}
+
+.upper-container {
+  width: 100%;
+  background: #4096c0;
+}
+
+.upper {
+  padding: 48px 10px;
+  min-height: 180px;
+  color: var(--secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1135px;
+  margin: 0 auto;
+}
+
+.upper-container .upper .info {
+  max-width: 500px;
+}
+.upper-container .upper img {
+  height: 110px;
+}
