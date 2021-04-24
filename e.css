@@ -377,3 +377,7 @@ nav.navbar .navbar-nav > li > a {
 .body > div:first-child .panel-heading:first-of-type + .panel-body {
   padding-top: 24px;
 }
+
+.containerr > * {
+  background-color: #121212;
+}
