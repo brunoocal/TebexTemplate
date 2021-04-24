@@ -502,8 +502,8 @@ button,
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-
-  background: #325dc2;
+  width: 100vw !important;
+  background: #325dc2 !important;
 }
 
 .footer .language {
@@ -511,8 +511,8 @@ button,
 }
 
 .upper-container {
-  width: 100%;
-  background: #4096c0;
+  width: 100% !important;
+  background: #4096c0 !important;
 }
 
 .upper {
@@ -522,7 +522,7 @@ button,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1135px;
+  width: 100vw !important;
   margin: 0 auto;
 }
 
