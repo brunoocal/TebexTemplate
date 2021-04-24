@@ -268,7 +268,7 @@ body {
 }
 
 .header__curve > .curve path {
-  fill: var(--secondary);
+  fill: #121212;
 }
 
 .panel,
@@ -325,12 +325,12 @@ nav.navbar .navbar-nav > li.active > a {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #4582ec;
+  color: hsl(218, 81%, 75%);
   text-decoration: none;
 }
 
 nav.navbar .navbar-nav > li > a {
-  color: #829ab1;
+  color: hsl(209, 23%, 80%);
   font-weight: var(--fontWeightNormal);
   padding: 12px 24px;
 }
@@ -360,7 +360,11 @@ nav.navbar .navbar-nav > li > a {
 }
 
 .panel-default > .panel-heading {
-  color: #829ab1;
+  color: #d5d5d5;
+}
+
+.panel-body {
+  color: #acabab;
 }
 
 .panel .panel-heading {
