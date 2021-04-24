@@ -381,3 +381,12 @@ nav.navbar .navbar-nav > li > a {
 .containerr * {
   background-color: #121212 !important;
 }
+
+.containerr {
+  background-color: #121212 !important;
+}
+
+body,
+html {
+  background-color: #121212 !important;
+}
